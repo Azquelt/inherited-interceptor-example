@@ -1,0 +1,11 @@
+plugins {
+    id 'war'
+}
+
+dependencies {
+    providedCompile 'org.eclipse.microprofile:microprofile:2.0.1'
+}
+
+repositories {
+    mavenCentral()
+}
